@@ -1,0 +1,62 @@
+.hearding{
+  font-weight: 300;
+  font-size: 2.5em;
+}
+
+
+.v2_46 {
+  height: 57px;
+  background:purple;
+  opacity: 0.7;
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ 
+}
+.v2_60 {
+  padding-top: 20px;
+  width: 702px;
+  color: rgba(0,0,0,1);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v2_62 {
+ 
+  text-align: left;
+}
+.v15_4 {
+  width: 54px;
+  height: 54px;
+  background: purple;
+  opacity: 1;
+ 
+  border-radius: 50%;
+}
+
+
+
+.v2_51 {
+  width: 55px;
+  height: 55px;
+  background: purple;
+  opacity: 1;
+  float:right ;
+  border-radius: 50%;
+}
+.v2_50 {
+  width: 583px;
+  color: rgba(255,255,255,0.800000011920929);
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: left;
+  padding-top:20px;
+  padding-left:20px;
+}

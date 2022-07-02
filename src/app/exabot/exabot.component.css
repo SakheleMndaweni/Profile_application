@@ -1,0 +1,319 @@
+.container{
+  max-width:100% !important;
+  margin:auto;
+  margin-top:4%;
+  font-family: sans-serif;
+  letter-spacing: 0.5px;
+
+}
+img{
+  width: 40px;
+  height:40px;
+  border-radius: 50%;
+  
+}
+.msg_header{
+  border: 1px solid var(--color-primary);
+  width:100%;
+  border-bottom: none;
+  display:inline-block;
+  background: #007bff;
+
+
+}
+.msg-hearder-img{
+  border-radius: 50%;
+  width: 40px;
+  height:40px;
+  margin-top: 12px;
+  margin-left: 5% ;
+  float: left;
+
+}
+.active{
+  float:left;
+
+  margin-top: 10px;
+}
+.active h4{
+  font-size: 14px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.active h6{
+  font-size: 11px;
+  margin-left: 10px;
+  line-height: 2px;
+  color: var(--color-primary);
+}
+
+
+.hearding-icons{
+  width: 120px;
+  margin-top:  12px;
+  float: right;
+  margin-left:  10px;
+  margin-right: 0;
+
+}
+
+.hearding-icons .fa{
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+}
+
+
+.msg-inbox{
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  height: 420px;
+  padding-bottom: 30px;
+  overflow: auto;
+ 
+ 
+
+}
+
+.chats{
+  padding: 30px 15px 0 25px;
+}
+.msg_page{
+ height: 516px;
+ overflow: auto;
+
+}
+
+.received-chats-img img{
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  padding-top: 1px;
+  float: left;
+}
+.received-msg{
+  padding: 0 0 0 20px;
+  display: inline-block;
+  vertical-align: top;
+  width: 92%;
+
+}
+
+.received-msg-inbox{
+  width: 57%;
+}
+
+.received-msg-inbox p{
+  background: var(--color-primary) none repeat scroll 0 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  margin: 0;
+  padding:  5px 10px 5px 12px;
+  width: 100%;
+}
+
+.time{
+  color:#777;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+
+}
+
+.outgoing-chats{
+  overflow: hidden;
+  margin: 10px 20px;
+}
+
+.outgoing-chats-msg{
+  float: left;
+  width: 46%;
+  margin-left: 45%;
+
+}
+
+.outgoing-chats-img img{
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  float: right;
+
+}
+
+.outgoing-chats-msg p{
+  background: var(--color-primary) none repeat scroll 0 0;
+  color: white;
+  border-radius: 10px;
+  margin: 0;
+  font-size:  14px;
+  padding:  5px 10px 5px 12px;
+  width: 100%;
+}
+
+.msg-bottom{
+  position: relative;
+  height: 10%;
+  border-radius: 10px ;
+  margin-top:5px;
+  border: 1px solid var(--color-primary);
+  padding-bottom: 67px;
+  background: transparent;
+  margin-bottom: 50px;
+}
+
+.input-group{
+  float: right;
+  margin-top:13px;
+  margin-right:20px;
+  outline: none !important;
+  border-radius: 20px ;
+  border: 1px solid var(--color-primary);
+  width: 61% !important;
+  background-color: transparent;
+
+}
+.container hr{
+  color:var(--color-primary);
+}
+
+.form-control{
+  border: none !important;
+  border-radius: 20px !important;
+  background-color: transparent;
+  color:white;
+  
+}
+
+.input-group-text{
+  background: transparent !important;
+  border: none !important;
+  color:white;
+
+}
+
+.input-group .fa{
+  color: #007bff;
+  float: right;
+
+}
+
+.bottom-icons{
+  float:left;
+  margin-top: 17px;
+  width: 30% !important;
+  margin-left: 22px;
+}
+
+.bottom-icons .fa{
+  color: #fff;
+  padding: 5px;
+}
+
+.form-control:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+  border-radius: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hearding{
+    font-weight: 300;
+    font-size: 2.5em;
+  }
+  .hearding{
+    font-weight: 300;
+    font-size: 2.5em;
+  }
+  
+  
+  .v2_46 {
+    height: 49px;
+    background:black;
+    opacity: 0.7;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
+  }
+  .v2_60 {
+    padding-top: 20px;
+    width: 702px;
+    color: rgba(0,0,0,1);
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+  }
+  
+  .v2_62 {
+   
+    text-align: left;
+  }
+  .v15_4 {
+    width: 20px;
+    height: 20px;
+    background: black;
+    opacity: 1;
+   
+    border-radius: 50%;
+  }
+  
+  
+  #messageBox{
+    margin-bottom: 16px;
+  }
+  .v2_51 {
+    width: 40px;
+    height: 40px;
+    background: black;
+    opacity: 1;
+    border-radius: 50%;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  .v2_50 {
+    width: 583px;
+    color: rgba(255,255,255,0.800000011920929);
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+    padding-top:20px;
+    padding-left:20px;
+  }
+
+  #move_down{
+    margin-bottom: 0;
+    position: absolute,relative,fixed;
+    padding-bottom: 0;
+    bottom:0;
+  }
+
+
+  
+  #move_down2{
+    margin-top:40px;
+  }
+
+ 
