@@ -36,7 +36,7 @@
           <input [(ngModel)]="email" type="email" name="email" placeholder="Email" >
           <textarea [(ngModel)]="message" type="text" name="message" id=""  rows="7"></textarea>
           <small>{{res}}</small>
-          <button  type="submit" class="btn">Send message</button>
+          <button (click)="send()" type="submit" class="btn">Send message</button>
 
         </form>
 

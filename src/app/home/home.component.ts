@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {ExaServiceService} from '../exa-service.service';
 import { Router } from '@angular/router';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

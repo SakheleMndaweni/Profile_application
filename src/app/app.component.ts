@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -11,8 +11,21 @@ export class AppComponent {
  
   title = 'Mndaweni App';
   loremIpsumText = `Some quick example text to build on the panel title and make up the bulk of the panel's content.`;
+ 
   constructor(private router: Router) {
 
+  }
+
+  information(){
+    Swal.fire({
+      title: 'Application Information',
+      text: 'This Angular application was software developed to provide information about Sakhele Mndaweni as a developer to potential clients and employers.',
+      icon: 'info',
+      iconHtml: '!',
+      confirmButtonText: 'OK',
+      showCloseButton: true,
+      confirmButtonColor:'#1f1f38',
+    })
   }
   gohome(){
     this.router.navigate(['/']);

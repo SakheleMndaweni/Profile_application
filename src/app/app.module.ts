@@ -24,6 +24,7 @@ import { FormControl, Validators, FormGroup } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from  '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import {MatIconModule} from  '@angular/material/icon';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MatToolbarModule,
     MatIconModule,
     BrowserAnimationsModule,
   ],

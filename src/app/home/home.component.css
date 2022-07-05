@@ -265,6 +265,11 @@ nav a:hover{
   margin-top: -150px;
 
 }
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
 
 .project_item{
   background: var(--color-bg-variant);
@@ -320,7 +325,7 @@ nav a:hover{
   }
   .project_container{
  
-    margin-top: -550px;
+    margin-top: -590px;
   
   }
 
@@ -347,7 +352,7 @@ nav a:hover{
   
 .project_container{
  
-  margin-top: -170px;
+  margin-top: -300px;
 
 }
   

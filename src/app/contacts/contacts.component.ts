@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ExaServiceService} from '../exa-service.service';
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-contacts',
   templateUrl: './contacts.component.html',
@@ -20,6 +21,16 @@ export class ContactsComponent implements OnInit {
 
   
   send(){
+
+    Swal.fire({
+      title: 'Application Information',
+      text: 'Oops! service currently under maintenance. Please use the communication platforms mentioned above.',
+      icon: 'info',
+      iconHtml: '!',
+      confirmButtonText: 'OK',
+      showCloseButton: true,
+      confirmButtonColor:'#1f1f38',
+    })
 
     if(this.message !=' ' && this.email !=' ' && this.name){
         this.s.send_Message(this.name,this.email,this.message).subscribe(data => {

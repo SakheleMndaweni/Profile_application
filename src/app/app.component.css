@@ -115,7 +115,7 @@
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom:  2rem;
+    bottom:  0.5rem;
     display:flex;
     gap: 0.8rem;
     border-radius: 2rem;
@@ -138,13 +138,14 @@
     padding: 0.6rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-light);
+    color: var(--color-primary);
     font-size: 1.1rem;
     text-decoration: none;
   }
   
   nav a:hover {
-    color: var(--color-primary);
+    color: var(--color-light);
+   
     
   }
   
@@ -161,8 +162,32 @@
   nav a:hover{
     background: rgba(0,0,0,0.3);
   }
+
+  mat-toolbar{
+    background-color: #4db5ff;
+    padding-bottom: 20px;
+  }
   
+  mat-toolbar img{
+    width: 40px;
+    height: 40px;
+  }
+
+  mat-toolbar .example-spacer {
+    flex: 1 1 auto;
+  }
   
+
+  mat-toolbar mat-icon{
+   color:#2c2c6c;
+   margin-left: 20px;
+   margin-top:20px;
+  }
+
+  mat-toolbar h6{
+    margin-top:20px;
+    color:#2c2c6c;
+  }
   
   /* */
   @media screen and (max-width: 1024px){
