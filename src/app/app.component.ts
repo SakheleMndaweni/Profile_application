@@ -19,7 +19,7 @@ export class AppComponent {
   information(){
     Swal.fire({
       title: 'Application Information',
-      text: 'This Angular application was software developed to provide information about Sakhele Mndaweni as a developer to potential clients and employers.',
+      text: 'This Angular application was developed to provide information about Sakhele Mndaweni as a software developer to potential clients and employers.',
       icon: 'info',
       iconHtml: '!',
       confirmButtonText: 'OK',
